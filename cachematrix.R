@@ -1,7 +1,10 @@
-## This script contains two functions the first creates a mechanism to cache the 
-## solution for the inverse of a matrix.
+## This script contains two functions the first creates a mechanism to calculate
+## the inverse of a matrix and cache the result.  the second function checks for
+## a cached inverse and pulls the value it it exists, otherwise it calculates the
+## inverse.  NOTE to help editors - I could not get either part to work 
+## satisfactorily
 
-## makeCacheMatrix calculates the inverse of matrix and stores it for
+## makeCacheMatrix calculates the inverse of a square matrix using solve() and stores it for
 ## access by other functions 
 
 makeCacheMatrix <- function(x = matrix()) {
